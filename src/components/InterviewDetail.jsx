@@ -3,6 +3,9 @@ import LabeledText from './LabeledText';
 
 const InterviewDetail = props => {
   const data = props.location.state;
+  /*
+    This is an attempt to clean up mapping of the questions lists
+  */
   return (
   <div className="interview-detail">
     <p className="no-margin">{data.interview.displayname}</p>
